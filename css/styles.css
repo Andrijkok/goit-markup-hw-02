@@ -61,6 +61,11 @@ body {
 .contacts-link .link:focus {
   color: var(--accent-color);
 }
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
 /*==================== /HEADER ====================*/
 
 /*==================== HERO ====================*/
@@ -83,6 +88,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  text-align: center;
   letter-spacing: 0.06em;
   color: var(--primary-text-color-them-dark);
   cursor: pointer;
@@ -90,7 +96,7 @@ body {
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #188ce8;
+  background-color: #2196f3;
   color: var(--secondary-text-color);
 }
 /*==================== /HERO ====================*/
@@ -105,7 +111,6 @@ body {
 }
 
 .advantage-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -138,14 +143,50 @@ body {
 }
 
 .team-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
   /* text-align: center; */
   letter-spacing: 0.03em;
   color: var(--primary-text-color-them-gray);
 }
+
+.team-list {
+  background-color: var(--background-color-them-white);
+}
 /*==================== SECTION OUR TEAM ====================*/
+
+/*==================== PORTFOLIO ====================*/
+.portfolio-button {
+  background-color: var(--background-color-them-grey);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color-them-dark);
+  cursor: pointer;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background-color: #2196f3;
+  color: var(--secondary-text-color);
+}
+
+.portfolio-titel {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color-them-gray);
+}
+/*==================== /PORTFOLIO ====================*/
 
 /*==================== FOOTER ====================*/
 .footer {
