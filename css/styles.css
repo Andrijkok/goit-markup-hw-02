@@ -18,6 +18,8 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
   color: var(--primary-text-color-them-dark);
 }
 
@@ -28,10 +30,8 @@ body {
 
 .logo {
   font-family: 'Raleway', sans-serif;
-  font-weight: 700;
   font-size: 26px;
   line-height: 1.94;
-  letter-spacing: 0.03em;
   color: #2196f3;
 }
 
@@ -41,7 +41,6 @@ body {
 
 .site-nav .link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color-them-dark);
@@ -49,7 +48,6 @@ body {
 
 .contacts-link .link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color-them-gray);
@@ -103,29 +101,21 @@ body {
 
 /*==================== SECTION OUR ADVANTAGES ====================*/
 .advantage-titel {
-  font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .advantage-text {
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--primary-text-color-them-gray);
 }
 /*==================== /SECTION OUR ADVANTAGES ====================*/
 
 /*==================== SECTION WHAT ARE WE DOING ====================*/
-.dong-title,
-.team-titel {
-  font-weight: 700;
+.section-title {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 /*==================== SECTION WHAT ARE WE DOING ====================*/
 
@@ -139,14 +129,12 @@ body {
   font-size: 16px;
   line-height: 1.9;
   /* text-align: center; */
-  letter-spacing: 0.03em;
 }
 
 .team-text {
   font-size: 16px;
   line-height: 1.9;
   /* text-align: center; */
-  letter-spacing: 0.03em;
   color: var(--primary-text-color-them-gray);
 }
 
@@ -173,8 +161,12 @@ body {
   color: var(--secondary-text-color);
 }
 
+.button-lists .portfolio-button.current {
+  background-color: #2196f3;
+  color: var(--secondary-text-color);
+}
+
 .portfolio-titel {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -183,7 +175,6 @@ body {
 .portfolio-text {
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.03em;
   color: var(--primary-text-color-them-gray);
 }
 /*==================== /PORTFOLIO ====================*/
@@ -200,7 +191,6 @@ body {
 .address-link {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
@@ -209,10 +199,7 @@ body {
 .email,
 .tel {
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
